@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Yeseva+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    color: rgb(255, 255, 255);
+}
+
+.main-container{
+    width: 1440px;
+    height: 783px;
+    margin: 0 auto;
+    
+}   
+
+.main-block{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 107px 135px 124px 134px;
+}
+
+.header{
+    display: flex;
+    gap: 12px;
+    justify-content: right;
+    font-family: 'Yeseva One', serif;
+}
+
+.head, .headers{
+    color: #E3B873;
+    font-family: 'Yeseva One';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.6%; /* 19.404px */
+    text-transform: uppercase;
+}
+
+.headers{
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.main_static-head{
+    width: 253px;
+    height: 66px;
+
+    color: #E3B873;
+    font-family: 'Yeseva One';
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.6%; /* 37.422px */
+    letter-spacing: -1.89px;
+    text-transform: uppercase;
+    margin-top: 45px;
+}
+
+.dm-js, .main_static-text{
+    color: #FFF;
+    font-family: 'Nunito Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 163.68%; /* 21.278px */
+    padding-top: 9px;
+}
+
+.headers_main-info{
+    margin-bottom: 40px;
+}
+
+.element{
+    width: 442px;
+    display: none;
+}
+
+.element_start{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 70px;
+}
+
+.arrow_point_element{
+    margin-top: 250px;
+}
+
+img{
+    margin-top: 15px;
+    width: 679px;
+    height: 482px;
+    margin-left: 50px;
+    display: none;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.headers{
+    color: rgba(255, 255, 255, 0.30);
+}
+
+.point{
+    opacity: 0.3;
+}
+
+.active{
+    color: #E3B873;
+    text-decoration: underline 1px;
+    text-underline-offset: 6.68px;
+    display: flex;
+    opacity: 1;
+    
+}
+
+.rightbtn, .leftbtn, .point{
+    cursor: pointer;
+}
+
+.btn{
+    background: black;
+    border: none;
+}
+
+.btn_style{
+    cursor: pointer;
+   color: white;
+   justify-content: left;
+}
+
+.after_main_head{
+    width: 92px;
+    height: 1px;
+    background: #E3B873;
+    position: relative;
+    left: 104px;
+    top: -23px;
+    display: block;
+    
+}
